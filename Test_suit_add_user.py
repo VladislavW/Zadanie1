@@ -145,7 +145,7 @@ def test_auth_id12(GO_TO_ADD_USERS):
 
 def test_auth_id13(GO_TO_ADD_USERS):
     lisichka_add_user = GO_TO_ADD_USERS
-    lisichka_add_user.enter_email_in_add_user("")
+    lisichka_add_user.enter_email_in_add_user("^@^")
     lisichka_add_user.enter_password_in_add_user("")
     lisichka_add_user.enter_name_in_add_user("Gosha")
     lisichka_add_user.click_gender_in_add_user()
